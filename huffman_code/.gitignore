@@ -1,0 +1,10 @@
+# Adapted from https://github.com/cpp-for-yourself/lectures-and-homeworks/blob/main/.gitignore
+.DS_Store
+.vscode/
+*.html
+**/build
+*.a
+*.so
+*.o
+**/external
+**/.cache
