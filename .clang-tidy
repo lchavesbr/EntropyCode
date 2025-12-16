@@ -1,0 +1,9 @@
+# clang-tidy settings adapted from Modern C++ Course from Uni-Bonn
+
+Checks: '-*, modernize-*, readability-*, performance-*, cppcoreguidelines-*, bugprone-*, clang-analyzer-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: '^(src|include)/.*'
+#AnalyzeTemporaryDtors: false
+FormatStyle: file
+#User: your_name
+#Version: 1.0
